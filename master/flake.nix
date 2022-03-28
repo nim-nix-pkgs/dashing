@@ -11,7 +11,6 @@
   inputs.src-dashing-master.ref   = "refs/heads/master";
   inputs.src-dashing-master.owner = "FedericoCeratto";
   inputs.src-dashing-master.repo  = "nim-dashing";
-  inputs.src-dashing-master.dir   = "";
   inputs.src-dashing-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
